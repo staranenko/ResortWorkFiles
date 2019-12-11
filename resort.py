@@ -2,12 +2,12 @@ import os
 import shutil
 import sys
 
-# INPUT = 'V:\\Контракт Геофонд НСО\\ГОТОВО для нарезки СК НСО'
-INPUT = 'v:\\Контракт Геофонд НСО\\1111111111111'
+INPUT = 'V:\\Контракт Геофонд НСО\\ГОТОВО для нарезки СК НСО'
+# INPUT = 'v:\\Контракт Геофонд НСО\\1111111111111'
 # INPUT = '/home/tars/Documents/GIS-DATA/Resorted/ГОТОВО для нарезки СК НСО'
 
 # OUTPUT = 'V:\\Контракт Геофонд НСО\\ГОТОВО для загрузки в Панораму'
-OUTPUT = 'c:\\Temp\\test'
+OUTPUT = 'v:\\Контракт Геофонд НСО\\ГОТОВО для записи на диски СТРУКТУРА ЗАКАЗЧИКА'
 # OUTPUT = '/home/tars/Documents/GIS-DATA/Resorted/Done'
 
 SUBSTR = [
@@ -32,9 +32,12 @@ NO_NUMBER = 'не число'
 CMD_RW = 'rewrite'  # Включает перезапись всех файлов в папке назначения
 CMD_ALL = 'all'  # Включает копирование файлов в том числе с "нет числа"
 CMD_SOURCE = 'source'  # Включает создание выходной структуры каталогов как у исходных файлов
+CMD_NO_COPY = 'nocopy'  # Не копировать и не создавать каталоги. Только просмотр и анализ.
+
 cmd_rw = False
 cmd_all = False
 cmd_source = False
+cmd_no_copy = False
 
 
 def clear_dir_name(dir, substr):
@@ -160,7 +163,7 @@ def printProgressBar(iteration, total, prefix = '', suffix = '', decimals = 1, l
 
 
 def get_args():
-    global cmd_rw, cmd_all, cmd_source
+    global cmd_rw, cmd_all, cmd_source, cmd_no_copy
     for a in sys.argv:
         if a == CMD_RW:
             cmd_rw = True
@@ -168,12 +171,15 @@ def get_args():
             cmd_all = True
         elif a == CMD_SOURCE:
             cmd_source = True
+        elif a == CMD_NO_COPY:
+            cmd_no_copy = True
     print('Режимы работы:',
-          'Перезапись' if cmd_rw else 'Без перезаписи',
-          '|',
-          'Коипировать все' if cmd_all else 'Копировать только не совпадающие',
-          '|',
-          'Создание исходной структуры каталогов' if cmd_source else 'Создание рабочей структуры каталогов')
+          '\n->', 'Перезапись.' if cmd_rw else 'Без перезаписи.',
+          '\n->', 'Коипировать всё без разбора.' if cmd_all else 'Копировать только не совпадающие.',
+          '\n->', 'Только анализ (без копирования).' if cmd_no_copy else 'Анализ и копирование.',
+          '\n->', 'Создание исходной структуры каталогов.' if cmd_source else 'Создание рабочей структуры каталогов '
+                                                                              'удобной для нарезки.'
+          )
 
 
 def main():
@@ -201,18 +207,26 @@ def main():
             with open(input_file_full_name) as file_handler:
                 try:
                     for line in file_handler:
-                        if NO_NUMBER in line:  # .encode('utf-8'):
+                        if NO_NUMBER in line:
                             no_number = True
                             print(f'Finding \"{NO_NUMBER}\" in file {input_file_full_name}')
+
+                            with open('log.txt', mode='a') as log_file:
+                                log_file.write(f'{input_file_full_name}\n')
+
                             break
                 except UnicodeDecodeError as e:
                     print(f'Ошибка поиска в файле {input_file_full_name}: {e.args}')
+
             if no_number:
                 copy = False
                 # print('Don''t copy file')
             else:
                 copy = True
                 # print('Copy file')
+
+        if cmd_no_copy:
+            copy = False  # Никогда не копировать файлы
 
         if copy:
             current_dir_lever = OUTPUT
