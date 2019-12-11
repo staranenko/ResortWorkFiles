@@ -2,10 +2,14 @@ import os
 import shutil
 import sys
 
-# INPUT = 'V:\Контракт Геофонд НСО\ГОТОВО для нарезки СК НСО'
-INPUT = '/home/tars/Documents/GIS-DATA/Resorted/ГОТОВО для нарезки СК НСО'
-# OUTPUT = 'V:\Контракт Геофонд НСО\ГОТОВО для загрузки в Панораму'
-OUTPUT = '/home/tars/Documents/GIS-DATA/Resorted/Done'
+# INPUT = 'V:\\Контракт Геофонд НСО\\ГОТОВО для нарезки СК НСО'
+INPUT = 'v:\\Контракт Геофонд НСО\\1111111111111'
+# INPUT = '/home/tars/Documents/GIS-DATA/Resorted/ГОТОВО для нарезки СК НСО'
+
+# OUTPUT = 'V:\\Контракт Геофонд НСО\\ГОТОВО для загрузки в Панораму'
+OUTPUT = 'c:\\Temp\\test'
+# OUTPUT = '/home/tars/Documents/GIS-DATA/Resorted/Done'
+
 SUBSTR = [
     '+',
     ',',
@@ -20,12 +24,14 @@ SUBSTR = [
     'переименовать',
     'весь'
 ]
+
 NAME_PATTERN = 'НСО'
 RESULT_DIR_NAME = 'Результат'
 NO_NUMBER = 'не число'
-CMD_RW = 'rewrite'
-CMD_ALL = 'all'
-CMD_SOURCE = 'source'
+
+CMD_RW = 'rewrite'  # Включает перезапись всех файлов в папке назначения
+CMD_ALL = 'all'  # Включает копирование файлов в том числе с "нет числа"
+CMD_SOURCE = 'source'  # Включает создание выходной структуры каталогов как у исходных файлов
 cmd_rw = False
 cmd_all = False
 cmd_source = False
@@ -163,9 +169,11 @@ def get_args():
         elif a == CMD_SOURCE:
             cmd_source = True
     print('Режимы работы:',
-          'Перезапись.' if cmd_rw else 'Без перезаписи.',
-          'Коипировать все.' if cmd_all else 'Копировать только не совпадающие.',
-          'Создание исходной структуры каталогов.' if cmd_source else 'Создаие рабочей структуры каталогов.')
+          'Перезапись' if cmd_rw else 'Без перезаписи',
+          '|',
+          'Коипировать все' if cmd_all else 'Копировать только не совпадающие',
+          '|',
+          'Создание исходной структуры каталогов' if cmd_source else 'Создание рабочей структуры каталогов')
 
 
 def main():
