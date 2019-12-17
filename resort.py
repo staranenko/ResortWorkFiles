@@ -1,29 +1,9 @@
 import os
 import shutil
 import sys
-
-INPUT = 'V:\\Контракт Геофонд НСО\\ГОТОВО для нарезки СК НСО'
-# INPUT = 'v:\\Контракт Геофонд НСО\\1111111111111'
-# INPUT = '/home/tars/Documents/GIS-DATA/Resorted/ГОТОВО для нарезки СК НСО'
-
-# OUTPUT = 'V:\\Контракт Геофонд НСО\\ГОТОВО для загрузки в Панораму'
-OUTPUT = 'v:\\Контракт Геофонд НСО\\ГОТОВО для записи на диски СТРУКТУРА ЗАКАЗЧИКА'
-# OUTPUT = '/home/tars/Documents/GIS-DATA/Resorted/Done'
-
-SUBSTR = [
-    '+',
-    ',',
-    '_',
-    'СК42',
-    'НСО1',
-    'НСО2',
-    'НСО3',
-    'НСО4',
-    'весь_переименовать',
-    'разложить',
-    'переименовать',
-    'весь'
-]
+import clear_string
+from ProgressBar import printProgressBar
+import InputOutputParams
 
 NAME_PATTERN = 'НСО'
 RESULT_DIR_NAME = 'Результат'
@@ -39,37 +19,30 @@ cmd_all = False
 cmd_source = False
 cmd_no_copy = False
 
-
-def clear_dir_name(dir, substr):
-    for str in substr:
-        dir = dir.replace(str, '')
-    return dir
+INPUT = InputOutputParams.INPUT
+OUTPUT = InputOutputParams.OUTPUT
 
 
-def clear_dirs_name(dirs, substr):
-    """ Получение списка каталогов очищенных от всякого мусора перечисленного в substr """
-    clear_dirs = []
-    for d in dirs:
-        for s in substr:
-            d = d.replace(s, '')
-        clear_dirs.append(d.strip())
-    return clear_dirs
+def get_file_name(name, name_pattern):
+    if name_pattern:
+        name_short = name.split(name_pattern)[0][:-1]
+        zone = name_pattern + name.split(name_pattern)[1].split('.')[0]
+    else:
+        name_short = name.split('.')[0]
+        zone = '_none'
 
+    file_names = [name,
+                  name_short + '.tif',
+                  name_short + '.' + name.rsplit('.')[-1],
+                  name_short + '.tif'
+                  ]
 
-def get_file_name(name):
-    file_names = [name, name.split(NAME_PATTERN)[0][:-1] + '.tif']
-
-    zone = NAME_PATTERN + name.split(NAME_PATTERN)[1].split('.')[0]
-
-    # file_names.append(name.split(NAME_PATTERN)[0][:-1].strip() + '.' + name.rsplit('.')[-1])
-    # file_names.append(name.split(NAME_PATTERN)[0][:-1].strip() + '.tif')
-    file_names.append(name.split(NAME_PATTERN)[0][:-1] + '.' + name.rsplit('.')[-1])
-    file_names.append(name.split(NAME_PATTERN)[0][:-1] + '.tif')
     return file_names, zone
 
 
 def sort_dirs_work(dirs):
-    dirs = [dirs[2], dirs[-1], dirs[0], dirs[1]]
+    if len(dirs) > 3:
+        dirs = [dirs[2], dirs[-1], dirs[0], dirs[1]]
     return dirs
 
 
@@ -78,21 +51,21 @@ def sort_dirs_source(dirs):
     return dirs
 
 
-def get_file(input):
+def get_file(input, name_pattern):
     print('Сканирование и предобработка...')
     list_files = []
     for subdir, dirs, files in os.walk(os.path.normpath(input), topdown=False):
         # print(os.listdir(input))
         for name in files:
             l = []
-            if 'НСО' in name:
+            if (name_pattern in name) and (('.TAB' in name) or ('.tab' in name)):
                 # print(os.path.join(subdir, name))
                 path_tree = subdir.replace(os.path.normpath(input), '').split(os.sep)[1:]
                 # print(path_tree)
                 # for path in path_tree:
-                #     print(clear_dir_name(path, SUBSTR))
-                clean_dirs = clear_dirs_name(path_tree, SUBSTR)
-                files = get_file_name(name)
+                #     print(clear_string.clear_dir_name(path, clear_string.SUBSTR))
+                clean_dirs = clear_string.clear_dirs_name(path_tree, clear_string.SUBSTR)
+                files = get_file_name(name, name_pattern)
                 # print(clean_dirs)
                 # print(os.path.join(name))
                 # print(files[0])
@@ -140,28 +113,6 @@ def copy_file_now(input_file_name, output_file_name):
         print(f'Ошибка копирования файла {input_file_name}: {e.args}')
 
 
-# Print iterations progress
-def printProgressBar(iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█'):
-    """
-    Call in a loop to create terminal progress bar
-    @params:
-        iteration   - Required  : current iteration (Int)
-        total       - Required  : total iterations (Int)
-        prefix      - Optional  : prefix string (Str)
-        suffix      - Optional  : suffix string (Str)
-        decimals    - Optional  : positive number of decimals in percent complete (Int)
-        length      - Optional  : character length of bar (Int)
-        fill        - Optional  : bar fill character (Str)
-    """
-    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
-    filledLength = int(length * iteration // total)
-    bar = fill * filledLength + '-' * (length - filledLength)
-    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end = '\r')
-    # Print New Line on Complete
-    if iteration == total:
-        print()
-
-
 def get_args():
     global cmd_rw, cmd_all, cmd_source, cmd_no_copy
     for a in sys.argv:
@@ -185,7 +136,7 @@ def get_args():
 def main():
     get_args()
 
-    files = get_file(INPUT)
+    files = get_file(INPUT, NAME_PATTERN)
     number_of_pairs = len(files)
 
     answer = str(input('Продолжить обработку? (y/n или любой символ):'))
