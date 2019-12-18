@@ -22,6 +22,8 @@ cmd_no_copy = False
 INPUT = InputOutputParams.INPUT
 OUTPUT = InputOutputParams.OUTPUT
 
+LOG_FILE = InputOutputParams.LOG_FILE
+
 
 def get_file_name(name, name_pattern):
     if name_pattern:
@@ -162,7 +164,7 @@ def main():
                             no_number = True
                             print(f'Finding \"{NO_NUMBER}\" in file {input_file_full_name}')
 
-                            with open('log.txt', mode='a') as log_file:
+                            with open(LOG_FILE, mode='a') as log_file:
                                 log_file.write(f'{input_file_full_name}\n')
 
                             break

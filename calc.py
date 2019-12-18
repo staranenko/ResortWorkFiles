@@ -6,6 +6,9 @@ import resort
 INPUT = 'v:\\Контракт Геофонд НСО\\ГОТОВО для записи на диски СТРУКТУРА ЗАКАЗЧИКА'
 OUTPUT = InputOutputParams.OUTPUT
 
+CALC_FILE_FULL = InputOutputParams.CALC_FILE_FULL
+CALC_FILE_SHORT = InputOutputParams.CALC_FILE_SHORT
+
 
 def get_string_from_full_info(rec):
     output = rec[0][2] + '\t'\
@@ -26,12 +29,12 @@ def main():
 
     printProgressBar(0, number_of_pairs, prefix='Progress:', suffix='Complete', length=50)
     for i, f in enumerate(files):
-        with open('calc.txt', mode='a') as log_file:
+        with open(CALC_FILE_FULL, mode='a') as log_file:
             log_file.write(f'{f}\n')
 
         info = get_string_from_full_info(f)
 
-        with open('calc2.txt', mode='a') as log_file:
+        with open(CALC_FILE_SHORT, mode='a') as log_file:
             log_file.write(f'{info}\n')
 
         printProgressBar(i + 1, number_of_pairs, prefix='Выполнение:', suffix='Завершено', length=50)
