@@ -23,6 +23,7 @@ INPUT = InputOutputParams.INPUT
 OUTPUT = InputOutputParams.OUTPUT
 
 LOG_FILE = InputOutputParams.LOG_FILE
+LOG_FILE_FULL = InputOutputParams.LOG_FILE_FULL
 
 
 def get_file_name(name, name_pattern):
@@ -109,10 +110,15 @@ def copy_file(input_file_name, output_file_name):
 
 def copy_file_now(input_file_name, output_file_name):
     try:
-        shutil.copyfile(input_file_name,
-                        output_file_name)
+        # # shutil.copyfile(input_file_name,
+        # #                 output_file_name)
+        # pass
     except OSError as e:
         print(f'Ошибка копирования файла {input_file_name}: {e.args}')
+
+    # Всегда пишем лог файл с содиержимым папки назначения
+    with open(LOG_FILE_FULL, mode='a') as log_file:
+        log_file.write(f'{output_file_name}\n')
 
 
 def get_args():
