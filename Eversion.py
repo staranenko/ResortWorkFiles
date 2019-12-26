@@ -1,7 +1,7 @@
 import os
 import shutil
 import sys
-import clear_string
+import ClearString
 from ProgressBar import printProgressBar
 import InputOutputParams
 
@@ -67,7 +67,7 @@ def get_file(input, name_pattern):
                 # print(path_tree)
                 # for path in path_tree:
                 #     print(clear_string.clear_dir_name(path, clear_string.SUBSTR))
-                clean_dirs = clear_string.clear_dirs_name(path_tree, clear_string.SUBSTR)
+                clean_dirs = ClearString.clear_dirs_name(path_tree, ClearString.SUBSTR)
                 files = get_file_name(name, name_pattern)
                 # print(clean_dirs)
                 # print(os.path.join(name))

@@ -1,6 +1,6 @@
 from ProgressBar import printProgressBar
 import InputOutputParams
-import resort
+import Eversion
 
 
 INPUT = 'v:\\Контракт Геофонд НСО\\ГОТОВО для записи на диски СТРУКТУРА ЗАКАЗЧИКА'
@@ -20,7 +20,7 @@ def get_string_from_full_info(rec):
 
 
 def main():
-    files = resort.get_file(INPUT, '')
+    files = Eversion.get_file(INPUT, '')
     number_of_pairs = len(files)
 
     answer = str(input('Продолжить обработку? (y/n или любой символ):'))
