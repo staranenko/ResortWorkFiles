@@ -1,2 +1,3 @@
 # Project exclude paths
 /venv/
+Будет удалено __pycache__/

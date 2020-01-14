@@ -1,9 +1,10 @@
-import os
-import shutil
 import sys
+import shutil
+import os
+
 import ClearString
-from ProgressBar import printProgressBar
 import InputOutputParams
+from ProgressBar import printProgressBar
 
 NAME_PATTERN = 'НСО'
 RESULT_DIR_NAME = 'Результат'
@@ -110,9 +111,8 @@ def copy_file(input_file_name, output_file_name):
 
 def copy_file_now(input_file_name, output_file_name):
     try:
-        # # shutil.copyfile(input_file_name,
-        # #                 output_file_name)
-        # pass
+        shutil.copyfile(input_file_name,
+                        output_file_name)
     except OSError as e:
         print(f'Ошибка копирования файла {input_file_name}: {e.args}')
 
