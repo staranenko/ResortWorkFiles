@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e75eb979-f4c6-471c-98a2-3bacf852ee06" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InputOutputParams.py" beforeDir="false" afterPath="$PROJECT_DIR$/InputOutputParams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressBar.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressBar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$" />
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ugc9g2FbMgtmOZpoJ1E61KtJcp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MapInfoCoordTransform" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Python.Eversion">
+    <configuration name="Eversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ResortWorkFiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Eversion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="resort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ResortWorkFiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Eversion" />
+        <item itemvalue="Python.resort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e75eb979-f4c6-471c-98a2-3bacf852ee06" name="Default Changelist" comment="" />
+      <created>1575781528820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575781528820</updated>
+      <workItem from="1575781532587" duration="11260000" />
+      <workItem from="1575792841574" duration="7000" />
+      <workItem from="1575792878025" duration="6107000" />
+      <workItem from="1575800349573" duration="3414000" />
+      <workItem from="1575817378458" duration="917000" />
+      <workItem from="1575819527905" duration="15040000" />
+      <workItem from="1575877161581" duration="193000" />
+      <workItem from="1575908239533" duration="1865000" />
+      <workItem from="1575997988080" duration="28000" />
+      <workItem from="1575998027806" duration="6281000" />
+      <workItem from="1577032243780" duration="42000" />
+      <workItem from="1577032297987" duration="163000" />
+      <workItem from="1577364381591" duration="861000" />
+      <workItem from="1577365383649" duration="36000" />
+      <workItem from="1577365433246" duration="1037000" />
+      <workItem from="1577366487506" duration="1498000" />
+      <workItem from="1577368002622" duration="583000" />
+      <workItem from="1577545192803" duration="40000" />
+      <workItem from="1578413077588" duration="649000" />
+      <workItem from="1578990139671" duration="116000" />
+      <workItem from="1578990267948" duration="1212000" />
+      <workItem from="1578991642307" duration="5884000" />
+      <workItem from="1579086389236" duration="533000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add source parameter">
+      <created>1576038182605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576038182605</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New path">
+      <created>1579001421799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579001421799</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New path">
+      <created>1579086488389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579086488389</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add source parameter" />
+    <MESSAGE value="New path" />
+    <option name="LAST_COMMIT_MESSAGE" value="New path" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="888" y="48" width="804" height="669" key="#Custom_Plugin_Repositories" timestamp="1577364523781">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="888" y="48" width="804" height="669" key="#Custom_Plugin_Repositories/0.0.1920.1080@0.0.1920.1080" timestamp="1577364523781" />
+    <state x="416" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578999994345">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="416" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578999994345" />
+    <state x="639" y="215" width="628" height="542" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577032256111">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="639" y="215" width="628" height="542" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577032256111" />
+    <state x="446" y="118" width="1017" height="888" key="CommitChangelistDialog2" timestamp="1579087032181">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="446" y="118" width="1017" height="888" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1579087032181" />
+    <state x="477" y="24" width="678" height="691" key="FileChooserDialogImpl" timestamp="1577366142245">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="477" y="24" width="678" height="691" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1577366142245" />
+    <state x="750" y="428" key="Github.CreateGistDialog" timestamp="1575908406391">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="750" y="428" key="Github.CreateGistDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575908406391" />
+    <state x="769" y="409" width="511" height="274" key="Github.ShareDialog" timestamp="1575908528835">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="769" y="409" width="511" height="274" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575908528835" />
+    <state x="779" y="216" width="352" height="580" key="Github.UntrackedFilesDialog" timestamp="1575908543394">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="779" y="216" width="352" height="580" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575908543394" />
+    <state width="1874" height="231" key="GridCell.Tab.0.bottom" timestamp="1579003252649">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579003252649" />
+    <state width="1874" height="231" key="GridCell.Tab.0.center" timestamp="1579003252649">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="231" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579003252649" />
+    <state width="1874" height="231" key="GridCell.Tab.0.left" timestamp="1579003252648">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="231" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579003252648" />
+    <state width="1874" height="231" key="GridCell.Tab.0.right" timestamp="1579003252649">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="231" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579003252649" />
+    <state x="669" y="228" width="571" height="556" key="MultipleFileMergeDialog" timestamp="1579086508509">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="669" y="228" width="571" height="556" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579086508509" />
+    <state x="336" y="426" width="360" height="118" key="ReplaceDuplicatesPrompt" timestamp="1575830113223">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="336" y="426" width="360" height="118" key="ReplaceDuplicatesPrompt/0.0.1920.1080@0.0.1920.1080" timestamp="1575830113223" />
+    <state x="617" y="194" width="1034" height="730" key="SettingsEditor" timestamp="1579000086714">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="617" y="194" width="1034" height="730" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579000086714" />
+    <state x="545" y="166" width="903" height="597" key="Vcs.Push.Dialog.v2" timestamp="1579001423895">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="545" y="166" width="903" height="597" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1579001423895" />
+    <state x="750" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577366323049">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="750" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1577366323049" />
+    <state x="606" y="199" width="677" height="413" key="git4idea.merge.GitPullDialog" timestamp="1579086499435">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="606" y="199" width="677" height="413" key="git4idea.merge.GitPullDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579086499435" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1575817403985">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1575817403985" />
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1577368526939">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1577368526939" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ResortWorkFiles$Eversion.coverage" NAME="Eversion Coverage Results" MODIFIED="1579000003056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ResortWorkFiles$resort.coverage" NAME="resort Coverage Results" MODIFIED="1578999979456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
