@@ -2,12 +2,14 @@
 
 """
 
+
 from ProgressBar import printProgressBar
 import InputOutputParams
 import Eversion
 
 
-INPUT = 'v:\\Контракт Геофонд НСО\\ГОТОВО для записи на диски СТРУКТУРА ЗАКАЗЧИКА'
+INPUT = '/mnt/storage/GIS-DATA/СГУГиТ/СЕРВЕР/ГОТОВО 2020/Проекты Окончательные/'
+# INPUT = 'v:\\Контракт Геофонд НСО\\ГОТОВО для записи на диски СТРУКТУРА ЗАКАЗЧИКА'
 OUTPUT = InputOutputParams.OUTPUT
 
 CALC_FILE_FULL = InputOutputParams.CALC_FILE_FULL
@@ -15,10 +17,11 @@ CALC_FILE_SHORT = InputOutputParams.CALC_FILE_SHORT
 
 
 def get_string_from_full_info(rec):
-    output = rec[0][2] + '\t'\
-             + rec[0][3] + '\t'\
-             + rec[0][0] + '\t'\
-             + str(rec[2][0][0:2]) + '\t'\
+    separator = ','
+    output = rec[0][2] + separator\
+             + rec[0][3] + separator\
+             + rec[0][0] + separator\
+             + str(rec[2][0][0:2]) + separator\
              + rec[1]
     return output
 

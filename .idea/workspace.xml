@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e75eb979-f4c6-471c-98a2-3bacf852ee06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/tars.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ResortWorkFiles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ResortWorkFiles.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FixTabFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/FixTabFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InputOutputParams.py" beforeDir="false" afterPath="$PROJECT_DIR$/InputOutputParams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgressBar.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgressBar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_full_info_destination_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log_full_info_destination_file.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +52,7 @@
       </set>
     </option>
   </component>
+  <component name="JupyterTrust" id="b7aa8d62-a359-4c20-bc44-ce68403fb8b8" />
   <component name="ProjectId" id="1Ugc9g2FbMgtmOZpoJ1E61KtJcp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,10 +65,37 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MapInfoCoordTransform" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pyalgotrader" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/groundhogday321/python-ipyleaflet/blob/master/Python%20Interactive%20Maps%20with%20ipyleaflet.ipynb" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.Eversion">
+    <configuration name="Calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ResortWorkFiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Calc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Eversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ResortWorkFiles" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,6 +110,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Eversion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FixTabFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ResortWorkFiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FixTabFile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,6 +165,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Eversion" />
+        <item itemvalue="Python.Calc" />
+        <item itemvalue="Python.FixTabFile" />
         <item itemvalue="Python.resort" />
       </list>
     </recent_temporary>
@@ -153,7 +215,49 @@
       <workItem from="1578990139671" duration="116000" />
       <workItem from="1578990267948" duration="1212000" />
       <workItem from="1578991642307" duration="5884000" />
-      <workItem from="1579086389236" duration="792000" />
+      <workItem from="1579086389236" duration="1072000" />
+      <workItem from="1579271399825" duration="17000" />
+      <workItem from="1579443726726" duration="322000" />
+      <workItem from="1579510493544" duration="1244000" />
+      <workItem from="1579624057833" duration="732000" />
+      <workItem from="1579625854651" duration="397000" />
+      <workItem from="1579769608488" duration="158000" />
+      <workItem from="1579775939422" duration="12000" />
+      <workItem from="1579775963023" duration="56000" />
+      <workItem from="1580395599598" duration="1245000" />
+      <workItem from="1580396858024" duration="125000" />
+      <workItem from="1580396997328" duration="71000" />
+      <workItem from="1580971410883" duration="6309000" />
+      <workItem from="1581222390040" duration="509000" />
+      <workItem from="1581223005686" duration="17000" />
+      <workItem from="1581223042264" duration="63000" />
+      <workItem from="1581223329407" duration="55000" />
+      <workItem from="1581223410787" duration="2203000" />
+      <workItem from="1581350401686" duration="668000" />
+      <workItem from="1581352427266" duration="803000" />
+      <workItem from="1581934259686" duration="96000" />
+      <workItem from="1582461472347" duration="55000" />
+      <workItem from="1582470635068" duration="11000" />
+      <workItem from="1582470675020" duration="7000" />
+      <workItem from="1582470695859" duration="822000" />
+      <workItem from="1584516218209" duration="2408000" />
+      <workItem from="1584695662629" duration="1372000" />
+      <workItem from="1584697076474" duration="16000" />
+      <workItem from="1584697111905" duration="159000" />
+      <workItem from="1584702269982" duration="1411000" />
+      <workItem from="1584715486178" duration="294000" />
+      <workItem from="1584716046047" duration="199000" />
+      <workItem from="1584716300308" duration="46000" />
+      <workItem from="1584717780199" duration="12000" />
+      <workItem from="1584884701882" duration="19000" />
+      <workItem from="1584892073537" duration="46000" />
+      <workItem from="1584938876302" duration="519000" />
+      <workItem from="1585035383300" duration="668000" />
+      <workItem from="1585154357875" duration="62000" />
+      <workItem from="1585312298672" duration="22000" />
+      <workItem from="1585312343989" duration="60000" />
+      <workItem from="1585493424583" duration="135000" />
+      <workItem from="1586193570322" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="Add source parameter">
       <created>1576038182605</created>
@@ -183,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579087085352</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add ReadMe.md and docstring.">
+      <created>1579087372369</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579087372369</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,93 +307,83 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add ReadMe.md and docstring." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="888" y="48" width="804" height="669" key="#Custom_Plugin_Repositories" timestamp="1577364523781">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="888" y="48" width="804" height="669" key="#Custom_Plugin_Repositories/0.0.1920.1080@0.0.1920.1080" timestamp="1577364523781" />
     <state x="416" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578999994345">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="416" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578999994345" />
-    <state x="639" y="215" width="628" height="542" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577032256111">
+    <state x="412" y="158" width="1005" height="762" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585035397784">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="631" y="131" width="628" height="542" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584697082639" />
+    <state x="412" y="158" width="1005" height="762" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.32.1920.1048@0.32.1920.1048" timestamp="1585035397784" />
+    <state x="685" y="181" width="528" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584715667269">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="639" y="215" width="628" height="542" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1577032256111" />
-    <state x="444" y="98" width="1017" height="888" key="CommitChangelistDialog2" timestamp="1579087085099">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="685" y="181" width="528" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584715667269" />
+    <state x="270" y="110" width="1388" height="901" key="CommitChangelistDialog2" timestamp="1586235591161">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state x="444" y="98" width="1017" height="888" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1579087085099" />
-    <state x="477" y="24" width="678" height="691" key="FileChooserDialogImpl" timestamp="1577366142245">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="270" y="80" width="1388" height="901" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1579087372270" />
+    <state x="270" y="110" key="CommitChangelistDialog2/0.32.1920.1048@0.32.1920.1048" timestamp="1586235591161" />
+    <state x="469" y="32" width="678" height="691" key="FileChooserDialogImpl" timestamp="1585493556915">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state x="477" y="24" width="678" height="691" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1577366142245" />
-    <state x="750" y="428" key="Github.CreateGistDialog" timestamp="1575908406391">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="469" y="-60" width="678" height="691" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1584696529921" />
+    <state x="469" y="32" key="FileChooserDialogImpl/0.32.1920.1048@0.32.1920.1048" timestamp="1585493556915" />
+    <state width="1874" height="207" key="GridCell.Tab.0.bottom" timestamp="1586235415577">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state x="750" y="428" key="Github.CreateGistDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575908406391" />
-    <state x="769" y="409" width="511" height="274" key="Github.ShareDialog" timestamp="1575908528835">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1874" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584715779265" />
+    <state width="1874" height="207" key="GridCell.Tab.0.bottom/0.32.1920.1048@0.32.1920.1048" timestamp="1586235415577" />
+    <state width="1874" height="207" key="GridCell.Tab.0.center" timestamp="1586235415576">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state x="769" y="409" width="511" height="274" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575908528835" />
-    <state x="779" y="216" width="352" height="580" key="Github.UntrackedFilesDialog" timestamp="1575908543394">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1874" height="217" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584715779265" />
+    <state width="1874" height="207" key="GridCell.Tab.0.center/0.32.1920.1048@0.32.1920.1048" timestamp="1586235415576" />
+    <state width="1874" height="207" key="GridCell.Tab.0.left" timestamp="1586235415575">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state x="779" y="216" width="352" height="580" key="Github.UntrackedFilesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575908543394" />
-    <state width="1874" height="231" key="GridCell.Tab.0.bottom" timestamp="1579003252649">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1874" height="217" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584715779264" />
+    <state width="1874" height="207" key="GridCell.Tab.0.left/0.32.1920.1048@0.32.1920.1048" timestamp="1586235415575" />
+    <state width="1874" height="207" key="GridCell.Tab.0.right" timestamp="1586235415576">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state width="1874" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579003252649" />
-    <state width="1874" height="231" key="GridCell.Tab.0.center" timestamp="1579003252649">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1874" height="231" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579003252649" />
-    <state width="1874" height="231" key="GridCell.Tab.0.left" timestamp="1579003252648">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1874" height="231" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579003252648" />
-    <state width="1874" height="231" key="GridCell.Tab.0.right" timestamp="1579003252649">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1874" height="231" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579003252649" />
+    <state width="1874" height="217" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584715779265" />
+    <state width="1874" height="207" key="GridCell.Tab.0.right/0.32.1920.1048@0.32.1920.1048" timestamp="1586235415576" />
     <state x="669" y="228" width="571" height="556" key="MultipleFileMergeDialog" timestamp="1579086508509">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="669" y="228" width="571" height="556" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579086508509" />
-    <state x="336" y="426" width="360" height="118" key="ReplaceDuplicatesPrompt" timestamp="1575830113223">
+    <state x="768" y="235" width="373" height="542" key="RollbackChangesDialog" timestamp="1579511084317">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="336" y="426" width="360" height="118" key="ReplaceDuplicatesPrompt/0.0.1920.1080@0.0.1920.1080" timestamp="1575830113223" />
-    <state x="617" y="194" width="1034" height="730" key="SettingsEditor" timestamp="1579000086714">
+    <state x="768" y="235" width="373" height="542" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579511084317" />
+    <state x="417" y="101" width="1003" height="724" key="SettingsEditor" timestamp="1584715529967">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="617" y="194" width="1034" height="730" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579000086714" />
-    <state x="543" y="146" width="903" height="597" key="Vcs.Push.Dialog.v2" timestamp="1579087180154">
+    <state x="417" y="101" width="1028" height="730" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1584715529967" />
+    <state x="659" y="148" width="1003" height="724" key="SettingsEditor/48.28.1872.1052@48.28.1872.1052" timestamp="1581350431868" />
+    <state x="541" y="24" width="942" height="699" key="Vcs.Push.Dialog.v2" timestamp="1579087428073">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="543" y="146" width="903" height="597" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1579087180154" />
+    <state x="541" y="24" width="942" height="699" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1579087428073" />
     <state x="758" y="247" width="394" height="518" key="VcsDiffUtil.ChangesDialog" timestamp="1579087249384">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="758" y="247" width="394" height="518" key="VcsDiffUtil.ChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579087249384" />
-    <state x="750" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577366323049">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="750" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1577366323049" />
     <state x="606" y="199" width="677" height="413" key="git4idea.merge.GitPullDialog" timestamp="1579086499435">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="606" y="199" width="677" height="413" key="git4idea.merge.GitPullDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579086499435" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1575817403985">
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1584715524053">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="600" height="424" key="javadoc.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1575817403985" />
-    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1577368526939">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1577368526939" />
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1584715524053" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ResortWorkFiles$Eversion.coverage" NAME="Eversion Coverage Results" MODIFIED="1579000003056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ResortWorkFiles$Eversion.coverage" NAME="Eversion Coverage Results" MODIFIED="1586194166829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ResortWorkFiles$Calc.coverage" NAME="Calc Coverage Results" MODIFIED="1586193678762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ResortWorkFiles$resort.coverage" NAME="resort Coverage Results" MODIFIED="1578999979456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ResortWorkFiles$FixTabFile.coverage" NAME="FixTabFile Coverage Results" MODIFIED="1579769754705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

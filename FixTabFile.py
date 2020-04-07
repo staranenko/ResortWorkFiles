@@ -1,3 +1,9 @@
+"""
+Исправление имени файла внутри MIF-файла в случае его поломки из-за кодировки. Если в имени файла используются символы
+кириллицы, то они ломаются при изменении кодировки файлов.
+"""
+
+
 import sys
 import shutil
 import os
@@ -11,7 +17,7 @@ from ProgressBar import printProgressBar
 import Eversion
 
 # INPUT = InputOutputParams.INPUT
-INPUT = 'C:\\Temp\\TEST2'
+INPUT = '/mnt/storage/Temp/1000'
 # INPUT = 'v:\\Контракт Геофонд НСО\\ГОТОВО 2020\\ГОТОВО для загрузки в Панораму'
 
 
