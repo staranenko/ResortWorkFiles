@@ -9,6 +9,7 @@
 import sys
 import shutil
 import os
+import datetime
 
 import ClearString
 import InputOutputParams
@@ -145,7 +146,9 @@ def get_args():
           '\n->', 'Коипировать всё без разбора.' if cmd_all else 'Копировать только не совпадающие.',
           '\n->', 'Только анализ (без копирования).' if cmd_no_copy else 'Анализ и копирование.',
           '\n->', 'Создание исходной структуры каталогов.' if cmd_source else 'Создание рабочей структуры каталогов '
-                                                                              'удобной для нарезки.'
+                                                                              'удобной для нарезки.',
+          '\n->', 'Входной каталог:\t', InputOutputParams.INPUT,
+          '\n->', 'Выходной каталог:\t', InputOutputParams.OUTPUT,
           )
 
 
@@ -156,7 +159,7 @@ def main():
     number_of_pairs = len(files)
 
     answer = str(input('Продолжить обработку? (y/n или любой символ):'))
-    if answer != 'y':
+    if answer.upper() != 'Y':
         return
 
     copy = False
@@ -238,6 +241,7 @@ def main():
                 copy_file(input_file_full_name, output_file_full_name)
 
         printProgressBar(i + 1, number_of_pairs, prefix='Выполнение:', suffix='Завершено', length=50)
+    print('Выполнение закончено в', datetime.datetime.now())
 
 
 if __name__ == '__main__':
